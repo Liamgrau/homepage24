@@ -67,5 +67,32 @@ BOOKMARKS
     font-size:72px;
     position:relative;
  }
- 
+ /*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#note{
+    width:250px;
+    height:250px;
+    resize: none;
+    background:#F3F19D;
+    padding:15px;
+    border:none;
+    position: absolute;
+    bottom:50px;
+    left:50px;
+    font-family:sans-serif;
+    opacity: 0;
+   }
+/*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#calc{
+    opacity: 0;
+    }
+   
+   
  
