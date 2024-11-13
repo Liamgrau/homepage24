@@ -38,6 +38,8 @@
             </a>
             <i class="fas fa-sticky-note" onclick="showNote()"></i>
             <i class="fas fa-calculator" onclick="showCalculator()"></i>
+            <!-- CUSTOM APP -->
+            <i class="fas fa-folder-open" onclick="showApp()"></i>
             <a href="https://open.spotify.com/user/31ofrs57wxvsriizrwuelptghara"><i class="fab fa-spotify"></i></a>
         </section>
         <!-- POST IT NOTE  -->
@@ -49,6 +51,12 @@
 
 
         <script src="myScripts.js" async defer></script>
+        <!-- ADD THIS TO YOUR INDEX.HTML -->
+        <div class="app-wrapper" id="app">
+            <i class="far fa-times-circle exit" onclick="hideApp()"></i>
+            <h1>Something Here...</h1>
+        </div>
+    
     </body>
 
 </html>
